@@ -119,7 +119,8 @@ class ExpirationPrimitive extends React.Component {
       error: this.getError(props),
       valid: this.isValid(props),
       setRawValue: this.setRawValue,
-      getInputProps: this.getInputProps
+      getInputProps: this.getInputProps,
+      focused: this.state.focused,
     }
   }
 
